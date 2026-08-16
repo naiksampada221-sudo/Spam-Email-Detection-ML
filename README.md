@@ -1,68 +1,45 @@
-\# 📧 Spam Email Detection System
+# 📧 Spam Email Detection System
 
+A Machine Learning-based web application that detects whether an email or text message is **Spam** or **Not Spam**.
 
+## 🚀 Features
 
-A Machine Learning-based web application that detects whether an email or text message is \*\*Spam\*\* or \*\*Not Spam\*\*.
+- 📩 Enter or paste an email/message
+- 🤖 Machine Learning-based spam detection
+- 🔤 TF-IDF text vectorization
+- ⚡ Fast prediction
+- 🌐 Interactive Gradio web interface
+- ✅ Clear Spam / Not Spam prediction
 
+## 🛠️ Technologies Used
 
+- Python
+- Scikit-learn
+- TF-IDF Vectorization
+- Gradio
+- Pandas
+- Jupyter Notebook
 
-\## 🚀 Features
+## 🧠 Machine Learning
 
+The system uses a Machine Learning classification model trained on email/text data.
 
+The text is processed using **TF-IDF (Term Frequency-Inverse Document Frequency)** vectorization before being passed to the trained model for prediction.
 
-\- 📩 Enter or paste an email/message
+### Prediction Classes
 
-\- 🤖 Machine Learning-based spam detection
+- 🟢 **Not Spam**
+- 🔴 **Spam**
 
-\- 🔤 TF-IDF text vectorization
-
-\- ⚡ Fast prediction
-
-\- 🌐 Interactive Gradio web interface
-
-\- 🟢 Displays clear Spam / Not Spam results
-
-
-
-\## 🛠️ Technologies Used
-
-
-
-\- Python
-
-\- Scikit-learn
-
-\- Pandas
-
-\- NumPy
-
-\- Joblib
-
-\- Gradio
-
-\- Jupyter Notebook
-
-
-
-\## 📂 Project Structure
-
-
+## 📂 Project Structure
 
 ```text
-
 Spam-Email-Detection-ML/
-
 │
-
 ├── app.py
-
-├── Spam\_Email\_Detection\_ML.ipynb
-
-├── spam\_email\_model.pkl
-
-├── tfidf\_vectorizer.pkl
-
+├── Spam_Email_Detection_ML.ipynb
 ├── requirements.txt
-
-└── README.md
-
+├── spam_email_model.pkl
+├── tfidf_vectorizer.pkl
+├── README.md
+└── .gitignore
